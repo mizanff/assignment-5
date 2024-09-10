@@ -1,103 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bus-Ticket</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="styles/styles.css"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="container mx-auto lg:px-16 px-8">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Home</a></li>
-                  <li><a>About</a></li>
-                  <li><a>Destination</a></li>
-                  <li><a>Search</a></li>
-                </ul>
-              </div>
-              <h5 class="text-4xl text-[#030712] font-extrabold hidden lg:flex">P-Ticket</h5>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 font-medium text-xl text-[#030712B3]">
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Destination</a></li>
-                <li><a>Search</a></li>
-              </ul>
-            </div>
-            <div class="navbar-end">
-              <a class="btn px-5 text-xl text-[#1DD100] bg-[#1DD1001A]">Bus <span><img src="./images/bus-icon.png" alt=""></span></a>
-            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
           </div>
+          <h5 class="text-4xl text-[#030712] font-extrabold hidden lg:flex">
+            P-Ticket
+          </h5>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul
+            class="menu menu-horizontal px-1 font-medium text-xl text-[#030712B3]"
+          >
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn px-5 text-xl text-[#1DD100] bg-[#1DD1001A]"
+            >Bus <span><img src="./images/bus-icon.png" alt="" /></span
+          ></a>
+        </div>
+      </div>
     </header>
     <main class="container mx-auto lg:px-16 px-8">
-        <div class="h-[96vh] bg-[#030712] bg-transparent bg-[url(images/banner.png)] bg-no-repeat w-full rounded-r-3xl mt-6">
+      <section>
+        <div
+          class="h-[96vh] bg-[#030712] bg-transparent bg-[url(images/banner.png)] bg-no-repeat w-full rounded-r-3xl mt-6"
+        >
           <div class="flex justify-center items-center text-center">
-          <div>
-            <h1 class="text-6xl font-extrabold pt-16 text-white ">End-to-End Travel with</h1>
-            <h1 class="text-6xl font-extrabold pt-6 text-[#1DD100]">P Paribahan</h1>
-            <p class="text-xl font-normal pt-6 text-[#FFFFFF]">Satisfied customers have a higher price tolerance for their preference and had less attraction <br> for switching to competitors in transport sector.</p>
-           <div class="mt-9">
-            <button class="btn text-xl font-inter text-[#030712] bg-[#1DD100] border-none">Buy Tickets</button>
-           </div>
+            <div>
+              <h1 class="text-6xl font-extrabold pt-16 text-white">
+                End-to-End Travel with
+              </h1>
+              <h1 class="text-6xl font-extrabold pt-6 text-[#1DD100]">
+                P Paribahan
+              </h1>
+              <p class="text-xl font-normal pt-6 text-[#FFFFFF]">
+                Satisfied customers have a higher price tolerance for their
+                preference and had less attraction <br />
+                for switching to competitors in transport sector.
+              </p>
+              <div class="mt-9">
+                <button
+                  class="btn text-xl font-inter text-[#030712] bg-[#1DD100] border-none"
+                >
+                  Buy Tickets
+                </button>
+              </div>
+            </div>
           </div>
-        </div>
-          <div class="mx-auto translate-y-28 lg:flex items-center justify-center">
-            <div class="grid grid-cols-3 gap-12 ">
-              <div class="lg:flex h-[20vh] shadow-md px-12 bg-white rounded-xl" >
+          <div
+            class="lg:flex hidden mx-auto translate-y-28 items-center justify-center"
+          >
+            <div class="grid grid-cols-3 gap-12">
+              <div class="lg:flex h-[20vh] shadow-md px-12 bg-white rounded-xl">
                 <div class="lg:flex justify-center items-center gap-2">
-                    <img class="h-14" src="images/people.png" alt="">
-                 <div>
-                  <h2>500K+</h2>
-                  <p>Registered users</p>
-                 </div>
+                  <img class="h-14" src="images/people.png" alt="" />
+                  <div>
+                    <h2>500K+</h2>
+                    <p>Registered users</p>
+                  </div>
                 </div>
               </div>
-              <div class="lg:flex h-[20vh] shadow-md px-12 bg-white rounded-xl" >
+              <div class="lg:flex h-[20vh] shadow-md px-12 bg-white rounded-xl">
                 <div class="lg:flex justify-center items-center gap-2">
-                    <img class="h-14" src="images/ticket-cupon.png" alt="">
-                 <div>
-                  <h2>500K+</h2>
-                  <p>Registered users</p>
-                 </div>
+                  <img class="h-14" src="images/ticket-cupon.png" alt="" />
+                  <div>
+                    <h2>500K+</h2>
+                    <p>Registered users</p>
+                  </div>
                 </div>
               </div>
-              <div class="lg:flex h-[20vh] shadow-md px-12 bg-white rounded-xl" >
+              <div class="lg:flex h-[20vh] shadow-md px-12 bg-white rounded-xl">
                 <div class="lg:flex justify-center items-center gap-2">
-                    <img class="h-14" src="images/stoppage.png" alt="">
-                 <div>
-                  <h2>500K+</h2>
-                  <p>Registered users</p>
-                 </div>
+                  <img class="h-14" src="images/stoppage.png" alt="" />
+                  <div>
+                    <h2>500K+</h2>
+                    <p>Registered users</p>
+                  </div>
                 </div>
               </div>
             </div>
-           </div>
+          </div>
         </div>
+      </section>
+      <section class="lg:mt-28 mt-16">
+        <h2 class="text-4xl text-center font-bold text-[#030712]">
+          Best offers for you
+        </h2>
+          <div class="mt-16 flex flex-col justify-center items-center">
+              <div class="flex gap-8">
+                <div class="flex justify-center items-center  gap-8 h-[27vh] card card-side px-8 bg-[#FFBF0F] shadow-xl font-inter">
+                  <div class="space-y-1">
+                    <h3 class="text-[#030712CC] text-2xl font-medium">15% OFF</h3>
+                    <h5 class="text-[#030712CC] text-xl ">on your next purchase</h5>
+                    <p class="text-[#03071280] text-xl">use by January 2024</p>
+                  </div>
+                  <div >
+                    <img class="h-[27vh] " src="images/info-devider.png" alt="">
+                  </div>
+                  <div class="space-y-1">
+                    <h2 class="text-[#030712] text-2xl font-medium">NEW15
+                      </h2>
+                    <p class="text-[#03071266] text-xl">Coupon Code</p>
+                  </div>
+                </div>
+                <div class="flex justify-center items-center  gap-8 h-[27vh] card card-side px-8 bg-[#FFBF0F] shadow-xl font-inter">
+                  <div class="space-y-1">
+                    <h3 class="text-[#030712CC] text-2xl font-medium">20% OFF</h3>
+                    <h5 class="text-[#030712CC] text-xl ">on your next purchase</h5>
+                    <p class="text-[#03071280] text-xl">use by January 2024</p>
+                  </div>
+                  <div >
+                    <img class="h-[27vh] " src="images/info-devider.png" alt="">
+                  </div>
+                  <div class="space-y-1">
+                    <h2 class="text-[#030712] text-2xl font-medium">Couple20
+                      </h2>
+                    <p class="text-[#03071266] text-xl">Coupon Code</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
     </main>
-    <footer>
-
+    <footer class="container mx-auto lg:px-16 px-8">
+      <div
+        class="mt-24 flex justify-between items-center bg-[#030712] h-[60vh] px-16"
+      >
+        <div class="text-[#FFFFFF] space-y-6">
+          <h3 class="text-3xl font-extrabold">P-Ticket</h3>
+          <p class="text-xl">
+            P-Ticket is a digital platform to make your <br />
+            daily commuting better.
+          </p>
+          <p class="text-xl pt-12">
+            @all rights reserved, P-Ticket services limited.2024
+          </p>
+        </div>
+        <div class="text-[#FFFFFF] space-y-6">
+          <h5 class="text-xl font-semibold">Download our app</h5>
+          <div class="flex items-center">
+            <div>
+              <img src="images/playstore.png" alt="" />
+            </div>
+            <div class="text-xl">
+              <h5>Getiton</h5>
+              <h3>Google Play</h3>
+            </div>
+          </div>
+          <div class="text-xl pt-4">
+            <p>Terms & condition</p>
+            <p>Return & refund policy</p>
+            <p>Privacy policy</p>
+          </div>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
