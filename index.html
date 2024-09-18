@@ -65,8 +65,9 @@
       </div>
     </header>
     <main class="container mx-auto lg:px-16 px-8">
+      <!-- banner -->
       <section>
-        <div
+        <div id="hero-container"
           class="h-[96vh] bg-[#030712] bg-transparent bg-[url(images/banner.png)] bg-no-repeat w-full rounded-r-3xl mt-6"
         >
           <div class="flex justify-center items-center text-center">
@@ -83,7 +84,7 @@
                 for switching to competitors in transport sector.
               </p>
               <div class="mt-9">
-                <button
+                <button onclick="byTicket()"
                   class="btn text-xl font-inter text-[#030712] bg-[#1DD100] border-none"
                 >
                   Buy Tickets
@@ -126,6 +127,7 @@
           </div>
         </div>
       </section>
+      <!-- card-->
       <section class="lg:mt-28 mt-16">
         <h2 class="text-4xl text-center font-bold text-[#030712]">
           Best offers for you
@@ -168,7 +170,8 @@
             <button class="btn btn-outline text-[#1DD100] bg-white border-[#1DD100] ">See All Offers</button>
           </div>
       </section>
-      <section class="h-[100vh] bg-[#F7F8F8]">
+      <!-- card-body-->
+      <section id="ticket-container" class="py-6 mt-20 bg-[#F7F8F8]">
         <div class="flex flex-col justify-center text-center mt-24 space-y-4">
           <h2 class="text-4xl font-bold text-[#030712]">P.H Paribahan</h2>
           <p class="text-xl font-medium text-[#03071299]"> We are committed to making sure that you and your group have the best <br> experience while in one of our Shadhin Travel buses.</p>
@@ -225,11 +228,271 @@
             </div>
           </div>
          </div>
-
-       
       </section>
-      <section>
-        
+      <!-- code -->
+      <section  id="ticket-container" class="mt-5 min-h-screen ">
+          <div class="card  bg-base-100 shadow-2xl">
+            <!-- contaienr -->
+            <div class="grid lg:grid-cols-2  gap-10 justify-between card-body">
+              <div>
+                <p class="text-lg font-semibold">Select Your Seart</p>
+                <hr class="mt-3">
+                <div class="flex lg:justify-between gap-10 mt-3">
+                  <div class="flex gap-4">
+                  <img src="images/seat-gray.png" alt="">
+                  <h1 class="lg:text-lg">Available</h1>
+                  </div>
+                  <div class="flex gap-4">
+                    <img src="images/seat-green-filled.png" alt="">
+                    <h1 class="lg:text-lg text-green-500 font-semibold">Selected</h1>
+                  </div>
+                </div>
+                <hr class="mt-4">
+                  <!-- many 40 btn -->
+                 <!-- many 40 btn --> <div class="text-end mt-4">
+                <button class="btn btn-xs btn-sm md:btn-md lg:btn-lg text-lg"><img  class="lg:px-2 px-2 h-12" src="images/Wheel-Front-Black.webp" alt="">
+                 </button>
+               </div>
+                <!-- start -->
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 mt-4  gap-4 ">
+                  <div class="set-btn">
+                    <button class="btn btn-xs btn-sm md:btn-md lg:btn-lg text-lg lg:w-full w-72 "> <span>A1</span> 
+                   </button>
+                   </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg lg:w-full w-72 text-lg"> <span>A2</span>
+                   </button>
+                   </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg lg:w-full w-72 text-lg"> <span> A3 </span>
+                   </button>
+                   </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg lg:w-full w-72 text-lg"><span>A4</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg lg:w-full w-72 text-lg"> <span>B1</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg lg:w-full w-72 text-lg"><span>B2</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg lg:w-full w-72 text-lg"><span>B3</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg lg:w-full w-72 text-lg"><span>B4</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>C1</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>C2</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>C3</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>C4</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>D1</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>D2</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>D3</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>D4</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>E1</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>E2</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>E3</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>E4</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>F1</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>F2</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>F3</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>F4</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>G1</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>G2</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>G3</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>G4</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>H1</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>H2</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>H3</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>H4</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>I1</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>I2</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>I3</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>I4</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>J1</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>J2</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>J3</span>
+                   </button>
+                    </div>
+                   <div class="set-btn">
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full text-lg"><span>J4</span>
+                   </button>
+                    </div> 
+                </div>
+              </div>
+            <div>  
+              <p class="text-lg font-semibold">Select Your Seat</p>
+              <hr class="mt-3">
+              <!-- RIGHT SITE INPUT -->
+              <div class="card w-full bg-base-100 shadow-2xl  mt-12 p-2">
+                <div class="card-body bg-gray-100 rounded-lg ">
+                   <table>
+                    <tr>
+                      <th>Seat<span id="seat" class="text-xl text-green-400">0</span></th>
+                      <th>Class</th>
+                      <th>Price</th>
+                    </tr>
+                   </table>
+                   <hr>
+                    <div id="bus-sit" class="grid grid-cols-3 ml-20 text-lg">
+                     
+                    </div>
+                  <hr>
+                  <div class="flex justify-between mt-2 font-inter">
+                    <h1 class="text-lg font-semibold">Total Price</h1>
+                    <h1 class="text-xl font-semibold">BDT <span id="up-total">0</span> </h1>
+                  </div>
+                  <div>
+                     <div class="mt-2">
+                      <label class="input input-bordered flex items-center gap-2">
+                        <input id="coupon-input" type="text" class="grow" placeholder="Search" />
+                        <span id="apply-btn" class="btn bg-green-400 text-white w-32 ">Apply</span>
+                      </label>
+                    </div>
+                    <div class="flex justify-between mt-4 font-inter">
+                      <h1 class="text-lg font-semibold">Grand Total</h1>
+                      <h1 class="text-xl font-semibold">BDT <span id="grand-total">0</span> </h1>
+                    </div>
+                  </div>
+                </div>
+                <!-- name emainl and number -->
+                <div class="mt-5 mb-5 font-inter">
+                  <h1 class="text-lg font-semibold mb-2">Passenger Name*</h1>
+                  <label class="input input-bordered flex items-center gap-2">
+                    
+                    <input type="text" class="grow" placeholder="Enter your name">
+                  </label>
+                <div class="mt-5 mb-5">
+                  <h1 class="text-lg font-semibold mb-2">Phone Number*</h1>
+                  <label class="input input-bordered flex items-center gap-2">
+                    <input type="number" class="grow" placeholder="Enter your phone number">
+                  </label>
+                </div>
+                <div class="mt-5 mb-5">
+                  <h1 class="text-lg font-semibold mb-2">Email ID*</h1>
+                  <label class="input input-bordered flex items-center gap-2">
+                    <input type="email" class="grow" placeholder="Enter your email">
+                  </label>
+                </div>
+              </div>
+              <div>
+                <button onclick="openPopup()" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-full bg-green-400 text-xl text-white font-semibold">NEXT</button>
+              </div>
+               <!-- popup section -->
+        <section id="popup" class="container mx-auto flex justify-center items-center hidden">
+          <div class=" card bg-base-100 shadow-2xl w-[50%] flex flex-col justify-center items-center gap-5 p-10">
+            <img src="images/success.png" alt="">
+            <h1 class="font-bold text-2xl text-[#27AE60]">SUCCESS</h1>
+            <h1 class="text-center">Thank you for booking Our Bus Seats. <br>
+            We are working hard to find the best service and deals for you! </h1>
+            <p>Shortly you will find a confirmation in you email.</p>
+            <button onclick="closePopup()" class="btn btn-wide rounded-full bg-[#27AE60] text-white font">Continue</button> 
+          </div>
+        </section>
+              <div class="flex justify-around mt-3 mb-4 underline underline-offset-1">
+                <a href="">Terms and Conditions</a>
+                <a href="">Cancellation Policy</a>
+              </div>
+            </div>
+            </div>
+          </div>
       </section>
     </main>
     <footer class="container mx-auto lg:px-16 px-8">
@@ -265,5 +528,6 @@
         </div>
       </div>
     </footer>
+    <script src="script/script.js"></script>
   </body>
-</html>
+
